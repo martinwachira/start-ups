@@ -11,7 +11,7 @@ def link_crawler(start_url, link_regex=None, robots_url=None, user_agent=USER_AG
                  max_depth=-1, delay=3, proxies=None, num_retries=2, cache=None,
                  scraper_callback=None):
 
-    #: Initialze a crawl queue with a seed url to start the crawl from
+    #: Initialize a crawl queue with a seed url to start the crawl from
     crawl_queue = [start_url]
 
     #: keep track of seen urls
